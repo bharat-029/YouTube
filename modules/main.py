@@ -31,7 +31,7 @@ bot = Client(
     "bot",
     api_id=API_ID,
     api_hash=API_HASH,
-    bot_token=BOT_TOKEN,
+    bot_token=BOT_TOKEN,7124240052:AAHDy5EwqcO3N0vMu3NfOUngaYLxqQhmkF4
 )
 
 my_name = "Sameer❣️"
