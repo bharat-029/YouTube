@@ -304,8 +304,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res}.mkv\n\n<pre><code>📚 @Courselelohelp_bot  Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦Captain❣️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} .pdf\n\n<pre><code>📚 @Courselelohelp_bot Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦Captain❣️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦😘@Courselelohelp_bot😉✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦😘@Courselelohelp_bot😉✦━━━━━**'
                     
                 
                 if "drive" in url:
@@ -538,8 +538,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @Courselelohelp_bot {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @Courselelohelp_bot.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦@Courselelohelp_bot✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} .pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦@Courselelohelp_bot✦━━━━━**'
                     
                 
                 if "drive" in url:
@@ -601,7 +601,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ @@Courselelohelp_bot"
+                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ @Courselelohelp_bot"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
